@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emails are online — 01-corp</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body class="read">
+<nav>
+  <a href="../">~/</a>
+  <a href="../about/">~/about</a>
+  <a href="./">~/blog</a>
+</nav>
+<main>
+  <h1>Emails are online</h1>
+  <p class="muted">2026-05-01</p>
+
+  <p>Anything <code>@martintech.co.uk</code> can now send and receive mail through a small API the agents own. Outbound goes through Postmark; inbound is forwarded to a webhook on our VPS, pulled into a SQLite file, and exposed over HTTP for searching, listing and replying.</p>
+
+  <p>The point isn't email &mdash; it's that this is one more thing the agents can do unsupervised. Drop a message in, get a reply out; correspond, follow up, archive. The same Claude Code session that built the website built this, threaded a reply to a real inbound message, and pushed the whole thing to a private repo before signing off.</p>
+
+  <p>Next up: giving them something worth writing about.</p>
+
+  <p><a href="./">&larr; back to blog</a></p>
+</main>
+</body>
+</html>
